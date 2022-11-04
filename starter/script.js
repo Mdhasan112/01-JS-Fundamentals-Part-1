@@ -57,11 +57,38 @@
 // console.log(now - ageNayem < now - ageMilon);
 
 
-const now = 2030;
-const ageNayem = now - 1998;
-const ageMilon = now - 1996;
+// const now = 2030;
+// const ageNayem = now - 1998;
+// const ageMilon = now - 1996;
 
-console.log(now - 1990 > now - 2018);
+// console.log(now - 1990 > now - 2018);
 
-const averageAge = (ageNayem + ageMilon) / 2;
-console.log(ageNayem, ageMilon, averageAge)
+// const averageAge = (ageNayem + ageMilon) / 2;
+// console.log(ageNayem, ageMilon, averageAge);
+
+//assignment:
+
+// BMI = mass / height ** 2 = mass / (height * height)
+
+/*const markWeight = 78;
+const johnWeight = 95;
+
+const markHeight = 1.69;
+const johnHeight = 1.95;
+
+const MarkBMI = markWeight / (markHeight * markHeight);
+const johnBMI = johnWeight / (johnHeight * johnHeight);
+const markHigherBMI = MarkBMI > johnBMI;
+
+console.log(MarkBMI, johnBMI, markHigherBMI)
+*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1998;
+const year = 2022;
+
+const jonas = 'I am ' + firstName + ', I am a ' + job + ' my age is ' + (year - birthYear);
+console.log(jonas);
+
+const jonasNew = `I am ${firstName} , I am  ${job} `
