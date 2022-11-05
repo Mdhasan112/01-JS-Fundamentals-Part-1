@@ -258,7 +258,7 @@ else if (kaolas > dolphins) {
 }
 else if (dolphins === kaolas) {
     console.log('match is draw');
-} 
+}
 */
 
 /*
@@ -279,4 +279,80 @@ else if (dolphins === kaolas && dolphins >= 100 && kaolas >= 100) {
 } else {
     console.log('No one wins the thophy😭')
 }
+*/
+
+/*
+//switch statement
+const day = 'tuesday';
+
+switch (day) {
+    case 'saturday': //day === saturday
+        console.log('plan course structure');
+        console.log('enter the result');
+        break;
+    case 'sunday':
+        console.log('what is your name?');
+        break;
+    case 'monday':
+        console.log('how old is you?');
+        console.log('this is bd');
+        break;
+    case 'tuesday':
+    case 'wednesday':
+        console.log('i am the king');
+        break;
+    case 'thursday':
+        console.log('half time in the work day')
+    default:
+        console.log('it is not a valid day')
+};
+
+or
+
+if (day === 'saturday') {
+    console.log('plan course structure');
+    console.log('enter the result');
+} else if (day === 'sunday') {
+    console.log('what is your name?');
+} else if (day === 'monday') {
+    console.log('how old is you?');
+    console.log('this is bd');
+} else if (day === 'tuesday' || day === 'wednesday') {
+    console.log('i am the king');
+} else if (day === 'thursday') {
+    console.log('half time in the work day')
+}
+else {
+    console.log('it is not a invalid day')
+};
+*/
+
+/*
+//ternary operator
+
+const age = 25;
+// age >= 18 ? console.log('I like to drink wine') :
+//     console.log('I like to drink water');
+
+const drinks = age >= 18 ? 'Wine🍷' : 'water🥛';
+console.log(drinks);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'Wine'
+} else {
+    drink2 = 'Water'
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'Wine🍷' : 'water🥛'}`);
+
+*/
+/*
+//coding challenge- 4
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 :
+    bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
 */
