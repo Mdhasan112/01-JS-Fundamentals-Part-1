@@ -218,3 +218,65 @@ if (favorite !== 20) {
     console.log('why not 25?')
 }
 */
+
+/*
+//Logical Operators
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision) {
+    console.log('You should drive the car');
+} else {
+    console.log('someone drive the car')
+}
+
+const isTired = true;
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('You should drive the car');
+} else {
+    console.log('someone drive the car')
+}
+*/
+
+/*
+//test-3
+const dolphins = (96 + 108 + 89) / 3;
+const kaolas = (88 + 91 + 110) / 3;
+
+console.log(dolphins, kaolas);
+
+if (dolphins > kaolas) {
+    console.log('dolphins is the winner');
+}
+else if (kaolas > dolphins) {
+    console.log('kaolas is the winner');
+}
+else if (dolphins === kaolas) {
+    console.log('match is draw');
+} 
+*/
+
+/*
+//Bonus
+const dolphins = (96 + 108 + 89) / 3;
+const kaolas = (88 + 91 + 110) / 3;
+
+console.log(dolphins, kaolas);
+
+if (dolphins > kaolas && dolphins >= 100) {
+    console.log('dolphins is the winner');
+}
+else if (kaolas > dolphins && kaolas >= 100) {
+    console.log('kaolas is the winner');
+}
+else if (dolphins === kaolas && dolphins >= 100 && kaolas >= 100) {
+    console.log('match is draw');
+} else {
+    console.log('No one wins the thophy😭')
+}
+*/
