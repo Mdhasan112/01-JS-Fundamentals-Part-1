@@ -1,74 +1,106 @@
-// let js = "Amazing";
-// // if (js === "Amazing") alert("javascript is FUN!");
-// 30 + 20 + 40 - 20;
-// console.log(30 + 20 + 40 - 20);
+/*
+////////////////////////////////////
+// Linking a JavaScript File
+let js = "Amazing";
+// if (js === "Amazing") alert("javascript is FUN!");
+30 + 20 + 40 - 20;
+console.log(30 + 20 + 40 - 20);
 
-// let friendName = "Rohim Sheikh";
-// console.log(friendName);
-// console.log(friendName);
-// console.log(friendName);
+////////////////////////////////////
+let friendName = "Rohim Sheikh";
+console.log(friendName);
+console.log(friendName);
+console.log(friendName);
 
-// let myFirstJob = "Teacher";
-// let mySecondJob = "Programmer";
-// console.log(mySecondJob);
+let myFirstJob = "Teacher";
+let mySecondJob = "Programmer";
+console.log(mySecondJob);
 
-// let numbers = 20;
-// console.log(numbers);
+let numbers = 20;
+console.log(numbers);
 
-// let javaScript = true;
-// console.log(typeof javaScript);
-// console.log(typeof 20);
-// console.log(typeof "Raju");
+/////////////////////////////////
+//Data Types
+let javaScript = true;
+console.log(typeof javaScript);
+console.log(typeof 20);
+console.log(typeof "Raju");
 
-// //var/let/const:
-// let age = 50;
-// age = 30;
-// console.log(age);
+//////////////////////////////////
+//let, const, and var:
+let age = 50;
+age = 30;
+console.log(age);
 
-// const birthday = 1998;
-// birthday = 2000;
-// console.log(birthday);
+const birthday = 1998;
+birthday = 2000;
+console.log(birthday);
 
-
+////////////////////////////////
+//Basic Operator
 //math operators
-// const now = 2030;
-// const ageNayem = now - 1998;
-// const ageMilon = now - 1996;
-// console.log(ageNayem, ageMilon);
+const now = 2030;
+const ageNayem = now - 1998;
+const ageMilon = now - 1996;
+console.log(ageNayem, ageMilon);
 
-// console.log(ageNayem * 2, ageNayem / 20 ** 3)
-// //2**3 means 2 to the power 3 = 2 * 2 * 2;
+console.log(ageNayem * 2, ageNayem / 20 ** 3);
+//2**3 means 2 to the power 3 = 2 * 2 * 2;
 
-// const firstName = "md hasan";
-// const lastName = "khan";
-// console.log(firstName + ' ' + lastName);
+const firstName = "md hasan";
+const lastName = "khan";
+console.log(firstName + " " + lastName);
 
-// //assignment operator
-// let x = 10 + 5; //15
-// x += 10; //x = x + 10
-// x *= 4; //x = x * 4
-// x++;//x = x + 1
-// x--; // x = x - 1s
-// console.log(x);
+//assignment operator
+let x = 10 + 5; //15
+x += 10; //x = x + 10
+x *= 4; //x = x * 4
+x++; //x = x + 1
+x--; // x = x - 1s
+console.log(x);
 
-// //comparison operators
-// console.log(ageNayem > ageMilon) //<, >, <=, >=
-// console.log(ageNayem <= 32);
-// console.log(now - ageNayem < now - ageMilon);
+//comparison operators
+console.log(ageNayem > ageMilon); //<, >, <=, >=
+console.log(ageNayem <= 32);
+console.log(now - ageNayem < now - ageMilon);
 
+const now = 2030;
+const ageNayem = now - 1998;
+const ageMilon = now - 1996;
 
-// const now = 2030;
-// const ageNayem = now - 1998;
-// const ageMilon = now - 1996;
+console.log(now - 1990 > now - 2018);
 
-// console.log(now - 1990 > now - 2018);
+/////////////////////////////////////////
+//Operator precedence
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
 
-// const averageAge = (ageNayem + ageMilon) / 2;
-// console.log(ageNayem, ageMilon, averageAge);
+console.log(now - 1991 > now - 2018);
 
-//assignment:
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
 
-// BMI = mass / height ** 2 = mass / (height * height)
+const averageAge = (ageNayem + ageMilon) / 2;
+console.log(ageNayem, ageMilon, averageAge);
+*/
+
+///////////////////////////////////////
+/*
+Coding Challenge #1
+
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+*/
+
+//BMI = mass / height ** 2 = mass / (height * height)
 
 /*const markWeight = 78;
 const johnWeight = 95;
@@ -82,6 +114,9 @@ const markHigherBMI = MarkBMI > johnBMI;
 
 console.log(MarkBMI, johnBMI, markHigherBMI)
 */
+
+////////////////////////////////////////////
+// Strings and Template Literals
 
 /*const firstName = 'Jonas';
 const job = 'teacher';
@@ -102,7 +137,8 @@ multiple
 lines`)
 */
 
-
+//////////////////////////////////////
+//Taking Decisions: if / else Statements
 /*
 const age = 19;
 
@@ -135,7 +171,16 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
+///////////////////////////////////
+// Coding Challenge #2
 /*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+
+HINT: Use an if/else statement 
+
 // BMI = mass / height ** 2 = mass / (height * height)
 
 const markWeight = 78;
@@ -157,8 +202,10 @@ if (MarkBMI > johnBMI) {
 }
 */
 
+//////////////////////////////////
+//Type Conversion and Coercion
+
 /*
-//type conversion
 const inputYear = '1995';
 console.log(Number(inputYear) + 18)
 
@@ -174,6 +221,8 @@ n = n - 1;
 console.log(n)
 */
 
+////////////////////////////
+// Truthy and Falsy Values
 /*
 // 5 falsy value: 0, '', undefined, null, NuN
 console.log(Boolean(0));
@@ -197,6 +246,8 @@ if (height) {
 }
 */
 
+///////////////////////////////////////
+// Equality Operators: == vs. ===
 /*
 const age = 25;
 if (age === 25) console.log('all are perfect (strict)')
@@ -219,9 +270,9 @@ if (favorite !== 20) {
 }
 */
 
-/*
+/////////////////////////////////
 //Logical Operators
-
+/*
 const hasDriversLicense = true;
 const hasGoodVision = true;
 
@@ -243,20 +294,35 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
+///////////////////////////////////////
+// Coding Challenge #3
+
 /*
-//test-3
+There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins the a trophy!
+
+1. Calculate the average score for each team, using the test data below
+2. Compare the team's average scores to determine the winner of the competition, and print it to the console. Don't forget that there can be a draw, so test for that as well (draw means they have the same average score).
+
+3. BONUS 1: Include a requirement for a minimum score of 100. With this rule, a team only wins if it has a higher score than the other team, and the same time a score of at least 100 points. HINT: Use a logical operator to test for minimum score, as well as multiple else-if blocks 😉
+4. BONUS 2: Minimum score also applies to a draw! So a draw only happens when both teams have the same score and both have a score greater or equal 100 points. Otherwise, no team wins the trophy.
+
+TEST DATA: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+/*
+
 const dolphins = (96 + 108 + 89) / 3;
-const kaolas = (88 + 91 + 110) / 3;
+const Koalas = (88 + 91 + 110) / 3;
 
-console.log(dolphins, kaolas);
+console.log(dolphins, Koalas);
 
-if (dolphins > kaolas) {
+if (dolphins > Koalas) {
     console.log('dolphins is the winner');
 }
-else if (kaolas > dolphins) {
-    console.log('kaolas is the winner');
+else if (Koalas > dolphins) {
+    console.log('Koalas is the winner');
 }
-else if (dolphins === kaolas) {
+else if (dolphins === Koalas) {
     console.log('match is draw');
 }
 */
@@ -264,23 +330,24 @@ else if (dolphins === kaolas) {
 /*
 //Bonus
 const dolphins = (96 + 108 + 89) / 3;
-const kaolas = (88 + 91 + 110) / 3;
+const Koalas = (88 + 91 + 110) / 3;
 
-console.log(dolphins, kaolas);
+console.log(dolphins, Koalas);
 
-if (dolphins > kaolas && dolphins >= 100) {
+if (dolphins > Koalas && dolphins >= 100) {
     console.log('dolphins is the winner');
 }
-else if (kaolas > dolphins && kaolas >= 100) {
-    console.log('kaolas is the winner');
+else if (Koalas > dolphins && Koalas >= 100) {
+    console.log('Koalas is the winner');
 }
-else if (dolphins === kaolas && dolphins >= 100 && kaolas >= 100) {
+else if (dolphins === Koalas && dolphins >= 100 && Koalas >= 100) {
     console.log('match is draw');
 } else {
-    console.log('No one wins the thophy😭')
+    console.log('No one wins the trophy😭')
 }
 */
 
+///////////////////////////////////
 /*
 //switch statement
 const day = 'tuesday';
